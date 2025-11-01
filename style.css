@@ -40,6 +40,7 @@ a {
 	list-style: none;
 	display: flex;
 	gap: 20px;
+	font-size: 18px;
 }
 
 .presentation {
@@ -71,3 +72,36 @@ a {
 .hero-text .sign-up {
 	margin-top: 15px;
 }
+
+.popular-sites {
+	background: #f9faf8;
+	padding: 0px 200px 48px;
+	text-align: center;
+}
+
+.popular-sites h2 {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+	padding: 30px 0;
+}
+
+.sites {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.site {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+	width: 200px;
+}
+
+.img-site img {
+	outline: 1px solid #3882f6;
+	border-radius: 8px;
+}
+
