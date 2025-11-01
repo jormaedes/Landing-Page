@@ -45,7 +45,7 @@ a {
 
 .presentation {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	gap: 48px;
 	padding: 100px 0;
@@ -101,7 +101,7 @@ a {
 }
 
 .img-site img {
-	outline: 1px solid #3882f6;
+	outline: 1px solid #0077FF;
 	border-radius: 8px;
 }
 
@@ -110,6 +110,8 @@ a {
 	background: #e5e7e8;
 	display: flex;
 	flex-flow: column;
+	color: #1f2937;
+
 }
 
 .quote q::after,
@@ -120,7 +122,6 @@ a {
 .quote q {
 	font-size: 36px;
 	font-weight: 300;
-	color: #1f2937;
 }
 
 .quote span {
@@ -154,4 +155,12 @@ a {
 
 .call-to-action-content .sign-up {
 	border: 2px solid #f9faf8;
+}
+
+.footer {
+	background: #1f2937;
+	color: #f9faf8;
+	text-align: center;
+	padding: 60px;
+
 }
