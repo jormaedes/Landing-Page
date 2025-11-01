@@ -105,3 +105,26 @@ a {
 	border-radius: 8px;
 }
 
+.quote {
+	padding: 60px 230px;
+	background: #e5e7e8;
+	display: flex;
+	flex-flow: column;
+}
+
+.quote q::after,
+.quote q::before {
+	content: none;
+}
+
+.quote q {
+	font-size: 36px;
+	font-weight: 300;
+	color: #1f2937;
+}
+
+.quote span {
+	align-self: flex-end;
+	font-weight: 700;
+}
+
