@@ -88,8 +88,9 @@ a {
 
 .sites {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+	gap: 40px;
 }
 
 .site {
@@ -101,7 +102,6 @@ a {
 }
 
 .img-site img {
-	outline: 1px solid #0077FF;
 	border-radius: 8px;
 }
 
