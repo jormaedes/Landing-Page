@@ -30,8 +30,7 @@ The landing page includes the following sections, strictly following the origina
 
 ## 🔗 How to View
 
-You can see the live project in action here:
-**(Add your GitHub Pages or Netlify/Vercel Link here)**
+You can see the live project in action here: [Landing Page](https://jormaedes.github.io/Landing-Page/)
 
 ## 👤 Attribution
 
